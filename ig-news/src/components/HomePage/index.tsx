@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { SubscriptionButton } from '../SubscriptionButton';
 
 import styles from './styles.module.scss';
 
@@ -17,6 +18,8 @@ export const HomePage = () => {
             Get access to all the publications <br />
             <span>for $9.90 month</span>
           </p>
+
+          <SubscriptionButton />
         </section>
 
         <img src="/images/avatar.svg" alt="Girl coding" />
