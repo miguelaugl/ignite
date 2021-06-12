@@ -2,7 +2,7 @@
   "RFC": {
     "prefix": "rfc",
     "body": [
-      "import styles from 'styles.module.scss';",
+      "import styles from './styles.module.scss';",
       "",
       "export const ${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/} = () => {",
       "  return <h1>${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}</h1>;",
