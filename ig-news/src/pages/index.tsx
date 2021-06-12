@@ -1,12 +1,5 @@
-import Head from 'next/head';
+import { HomePage } from "../components/HomePage";
 
 export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>Início | ig.news</title>
-      </Head>
-      <h1>Home</h1>
-    </>
-  )
+  return <HomePage />;
 }
